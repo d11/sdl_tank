@@ -1,0 +1,22 @@
+#ifndef _CONFIG_H_
+
+#define _CONFIG_H_
+
+#define USE_FULLSCREEN FALSE
+#define PRINT_FPS FALSE
+
+#define DISPLAY_WIDTH 1024
+#define DISPLAY_HEIGHT 768
+
+#define PLAYER_BOUND_WIDTH 21
+#define HEALTH_COLOR_GOOD 0x00FF00
+#define HEALTH_COLOR_BAD 0x886600
+
+#define GAME_SPEED 0.05
+
+#define BOT_MAX 32
+#define BULLET_MAX 1024
+#define WALL_MAX 128
+
+#endif /* _CONFIG_H_ */
+

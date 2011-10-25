@@ -1,0 +1,38 @@
+PROJECT: TANK
+
+This is a simplish SDL shooter. Called tank for no reason, so far. There are no tanks. So far, it just serves as a test bed for some of my graphics and AI ideas.
+
+Control system is yet to be decided - current method is WASD, player turns to face the cursor position (like FPS but top-down).
+This will probably change since it is not very intuitive.
+
+TODO
+- Perhaps it would be good to merge this with the flash tank system
+- Tidy up a lot! Mostly make things use smaller functions
+- Work out how to move graphics code into a separate library
+- Move graphics code into a separate library!
+- Levels, loading?
+- Different weapons
+- I don't know what else... whatever seems like a good idea at the time.
+
+HISTORY
+
+Sun Oct 15 23:59:14 BST 2006
+* Started history
+* A little bit of tidying
+* Made bots use bezier curves for movement AI
+* Adjusted health balance
+* Fixed strafe speed bug
+* Automatically spawning bots
+* Different colour bullets
+* Smaller death explosions
+
+Thu Oct 19 23:21:24 BST 2006
+* Moved some mathematical functions to aux-math.h
+* Added some stats (kills, total kills, mean kills, standard deviation)
+* Fixed health bar size
+* Converted some data to use vector structs (eg coords, velocities)
+* Bots now randomly pick a side of the player to go around rather than always the right hand side
+* Removed obsolete movement code
+* Replaced some 'magic numbers' with #defines
+
+
